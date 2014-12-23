@@ -3,8 +3,8 @@ This image starts a *bind9* server. Its configuration is read from a data
 container.
 
 # Use
-Create the data container, as explained here: 
-https://github.com/PascalBod/docker-dns-data
+Create the data container, as explained 
+[here](https://github.com/PascalBod/docker-dns-data).
 
 This data container is named `dnsserverdata`.
 
