@@ -1,4 +1,3 @@
-# sameersbn/bind (without webmin) is used as a model
 FROM pascalbod/ubuntu:14.04.1-20141221
 
 RUN apt-get update \
@@ -9,5 +8,5 @@ ADD start /start
 RUN chmod 755 /start
 
 EXPOSE 53/udp
-VOLUME ["/data"]
+VOLUME ["/data/bind"]
 CMD ["/start"]
