@@ -1,4 +1,4 @@
 docker-dns
 ==========
 
-For Docker Hub automatic building of my specific DNS image
+For Docker Hub automated build of my specific DNS image.
