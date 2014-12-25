@@ -15,5 +15,8 @@ docker pull pascalbod/dns:20141223
 
 Run it:
 ```
-docker run --name dnsserver --volumes-from dnsserverdata -d -p 53:53/udp -p 53:53 pascalbod/dns:20141223
+docker run --name dnsserver --volumes-from dnsserverdata -d -p 53:53/udp -p 53:53 --restart=always pascalbod/dns:20141223
 ```
+
+# More information
+See [this article](http://www.monblocnotes.com/node/2074).
