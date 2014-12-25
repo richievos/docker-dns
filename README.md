@@ -19,4 +19,4 @@ docker run --name dnsserver --volumes-from dnsserverdata -d -p 53:53/udp -p 53:5
 ```
 
 # More information
-See [this article](http://www.monblocnotes.com/node/2074).
+See [this article](http://www.monblocnotes.com/node/2083).
