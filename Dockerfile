@@ -8,5 +8,5 @@ ADD start /start
 RUN chmod 755 /start
 
 EXPOSE 53/udp
-VOLUME ["/data/bind"]
+#VOLUME ["/data/bind"]
 CMD ["/start"]
