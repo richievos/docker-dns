@@ -5,10 +5,13 @@ if [ -e /opt/pascalbod/bindInitFlag ] ; then
   echo "Bind configuration already initialized"
 else
   echo "Starting configuration..."
-  # Ensure right ownership.
-  chmod -R 775 /data/bind
-  chown -R root:bind /data/bind
+
   cp /data/bind/etc/* /etc/bind/
+
+  # Ensure right ownership.
+  chmod -R 775 /etc/bind/
+  chown -R root:bind /etc/bind/
+
   mkdir -p /opt/pascalbod
   touch /opt/pascalbod/bindInitFlag
   echo "Configuration done"
